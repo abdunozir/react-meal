@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&display=swap");
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #4d1601;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: 0.1s;
+  font-family: "Indie Flower", cursive;
+  font-family: "Macondo", cursive;
+}
+
+.nav-cart:active {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.nav-cart p {
+  margin: 0;
+}
+
+.badge {
+  background-color: #b94517 !important;
+}

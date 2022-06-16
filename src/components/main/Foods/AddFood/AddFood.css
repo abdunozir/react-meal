@@ -1,0 +1,71 @@
+.food-add {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-btn {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: #fff;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: 700;
+  transition: 0.1s;
+}
+
+.food-add div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-add div input {
+  width: 60px;
+  outline: 0;
+}
+.food-name {
+  margin: 0;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Amout-text {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.form-number {
+  position: relative;
+}
+
+.input-validation-alert::before {
+  content: "";
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -5px;
+  transform: rotate(45deg);
+}
+
+.input-validation-alert {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: red;
+  padding: 3px 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.input-validation-alert p {
+  margin: 0;
+}

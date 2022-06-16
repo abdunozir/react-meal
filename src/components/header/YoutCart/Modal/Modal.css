@@ -1,0 +1,163 @@
+.modal-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: -100vh;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.openModal {
+  top: 0 !important;
+  /* transition: 0.3s; */
+  animation: cardAnime1 6s ease-out forwards;
+}
+
+@keyframes cardAnime1 {
+  from {
+    transform: translateY(0px);
+    background-color: rgba(1, 0, 0, 0);
+  }
+
+  to {
+    transform: translateY(0);
+    background-color: none;
+    background-color: rgba(1, 0, 0, 0.591);
+  }
+}
+.modal-main {
+  max-width: 600px;
+  width: 90%;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+}
+
+.modal-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+.Modal-footer-total {
+  width: 90%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-btns {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.modal-btn-close {
+  cursor: pointer;
+  background-color: transparent;
+  color: #8a2b06;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+}
+
+.modal-btn-close:hover {
+  background-color: #8a2b06;
+  color: #fff;
+}
+
+.modal-btn-order {
+  cursor: pointer;
+  background-color: #8a2b06;
+  color: #fff;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+}
+
+.modal-btn-order:hover {
+  background-color: #5c1d05;
+}
+
+.modal-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  width: 100%;
+}
+
+.modal-text ul {
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal-text ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.madal-add-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.modal-add-btn {
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #8a2b06;
+  border: 1px solid #8a2b06;
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-add-btn:hover {
+  background-color: #8a2b06;
+  color: #fff;
+}
+
+.price-modal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.food-price-available-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px !important;
+}
+
+.price-modal .modal-food-count {
+  font-weight: 700;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  color: #363636;
+  /* padding: 0; */
+  /* margin: 0; */
+}

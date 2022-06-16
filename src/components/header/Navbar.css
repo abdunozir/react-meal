@@ -1,0 +1,18 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* font-family: "Indie Flower", cursive;
+  font-family: "Macondo", cursive; */
+  background-color: #8a2b06;
+  color: white;
+  padding: 13px 100px !important;
+  z-index: 1;
+  position: fixed !important;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding: 0;
+}
